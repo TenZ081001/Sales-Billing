@@ -1,0 +1,18 @@
+.module-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.module-content table, th, td {
+    border: 1px solid #ddd;
+}
+
+.module-content th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.module-content th {
+    background-color: #f2f2f2;
+}
