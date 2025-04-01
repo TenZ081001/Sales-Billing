@@ -31,10 +31,10 @@
                 </div>
             </li>
             <li><a href="cashiering.php" onclick="showSection('casheiring')"><i class="fas fa-cash-register"></i>CASHIERING</a></li>
-            <li><a href="#reports" onclick="showSection('reports')"><i class="fas fa-chart-bar"></i>REPORTS</a></li>
+            <li><a href="reports.php" onclick="showSection('reports')"><i class="fas fa-chart-bar"></i>REPORTS</a></li>
             <!-- Logout Button -->
             <li>
-                <a href="logout.php" onclick="return confirm('Are you sure you want to logout?');">
+                <a href="Login.php" onclick="return confirm('Are you sure you want to logout?');">
                     <i class="fas fa-sign-out-alt"></i>Logout
                 </a>
             </li>
