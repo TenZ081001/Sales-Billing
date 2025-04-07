@@ -28,23 +28,34 @@
 <body>
     <div class="content">
         <div class="module-content">
-        <div id="supplies" class="section">
-        <h1>Records</h1>
+            <div id="services" class="section">
+                <h1>Records</h1>
+            </div>
+            <div id="Supplies" class="section">
                 <h2>Supplies</h2>
                 <table>
                     <tr>
-                        <th>Supply ID</th>
+                        <th>Item ID</th>
                         <th>Item Name</th>
                         <th>Quantity</th>
                         <th>Action</th>
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Paper</td>
-                        <td>500</td>
-                        <td><a href="edit.php?id=1">Edit</a> | <a href="delete.php?id=1">Delete</a></td>
+                        <td>Compressor</td>
+                        <td>10</td>
+                        <td><a href="edit_inventory.php?id=1">Edit</a> | <a href="delete_inventory.php?id=1">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Refrigerant Gas</td>
+                        <td>25</td>
+                        <td><a href="edit_inventory.php?id=2">Edit</a> | <a href="delete_inventory.php?id=2">Delete</a></td>
                     </tr>
                 </table>
             </div>
-</body>
+        </div>
+    </div>
+
+</body></tr>
 </html>
