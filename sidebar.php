@@ -13,6 +13,7 @@
         <ul>
             <li><a href="index.php" onclick="showSection('dashboard')" class="active"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
             <li><a href="admin.php" onclick="showSection('admin')"><i class="fas fa-user-cog"></i>ADMIN</a></li>
+            <li><a href="schedule.php" onclick="showSection('schedule')"><i class="fas fa-calendar-alt"></i>SCHEDULE</a></li>
             <li class="dropdown">
                 <a href="#" onclick="toggleDropdown('recordsDropdown')"><i class="fas fa-folder"></i>RECORDS</a>
                 <div class="dropdown-content" id="recordsDropdown">
